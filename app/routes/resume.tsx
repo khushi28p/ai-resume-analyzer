@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from "react";
 import { useNavigate, useParams } from "react-router";
 import { Link } from "react-router";
-import Summary from "~/components/Summary";
+import Summary from "~/components/feedback/Summary";
 import { usePuterStore } from "~/lib/puter";
-import ATS from "~/components/ATS";
-import Details from "~/components/Details";
+import ATS from "~/components/feedback/ATS";
+import Details from "~/components/feedback/Details";
 
 export const meta = () => [
   { title: "ResumeIQ | Review" },
